@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Utilities */
+.coloredtext {
+  color: #ddd;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.smalltext {
+  font-size: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: #333;
+  color: #ddd;
+  border-radius: 5px;
+}
+
+/* Left info */
+.personalinfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+}
+
+.contactinfo {
+  list-style: none;
+}
+
+.contactinfo li {
+  margin-bottom: 1rem;
+}
+
+.contactme {
+  text-align: right;
+}
+
+.name h2 {
+  color: #ddd;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.linebreak {
+  border: 1px solid black;
+  background-color: black;
+  width: 90%;
+  margin: auto;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+}
+
+.workproedu {
+  margin-bottom: 2rem;
+}
+
+.projectinfo {
+  padding: 0 2rem;
+}
+
+.work h2 {
+  font-size: 1rem;
+}
+
+.work h3 {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Right Info */
+.skill-lang h2 {
+  font-size: 1rem;
+}
+
+.skill {
+  margin-bottom: 2rem;
+}
+
+.hcj li {
+  /* padding: 0 1rem; */
+}
